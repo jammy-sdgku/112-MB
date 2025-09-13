@@ -1,0 +1,24 @@
+{% extends 'base.html'%} {% block content%}{% load static %}
+<title>{% block title %}About{% endblock title %}</title>
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}" />{% endblock css %}
+
+<h1>About Me</h1>
+
+<div class="card">
+  <img src="{% static 'img/james.jpeg' %}" alt="About Me" />
+
+  <div class="card-body">
+    <h5 class="card-title">James Jones</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Batman</h6>
+    <h6 class="card-subtitle mb-2 text-muted">Year: 2025</h6>
+    <p class="card-text">
+      Welcome to my blog! Here you can find articles, tutorials, and updates
+      about my journey in web development. I have been passionate about coding
+      for several years and love sharing my knowledge with others. Feel free to
+      explore the posts and leave your comments!
+    </p>
+  </div>
+</div>
+
+{% endblock content%}
