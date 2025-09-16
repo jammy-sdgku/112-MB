@@ -1,0 +1,21 @@
+.posts_list {
+    color: white;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1f1e29;
+}
+
+.posts_list h2 {
+    text-decoration: underline;
+}
+
+.posts_list p {
+    text-align: left;
+}
+
+.posts_list p1 {
+    text-align: center;
+}

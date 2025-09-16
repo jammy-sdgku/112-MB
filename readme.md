@@ -37,7 +37,13 @@ pip install SQLAlchemy
 #site info -------------------------------------------------------------------------------------------
 http://127.0.0.1:5000
 
+#Models
+After we finish modals in python file, we need to run these two commands:
+-makemigrations -> Translation from the models.py into sql part
+-migrate -> applies the migrations file into the db
+
 #Database info
+http://127.0.0.1:8000/
 
 #soft delete - made to deactivate account without deleting it.
 is_active:inactive
@@ -53,4 +59,5 @@ STR:
 5. Create the templates are going to handle the views.
 6. Create a base.html blueprint with a navbar and the jinja blocks
 7. Add the base to the home and about.html
+
 # 112-MB
