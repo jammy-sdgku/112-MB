@@ -36,7 +36,8 @@
 }
 
 .editForm label {
-    display: block margin-bottom: 5px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 .editForm input,
