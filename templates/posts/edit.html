@@ -4,7 +4,7 @@
 {% block content %}
 <div class="container-md">
   <h1>Edit Post</h1>
-  <form method="POST">
+  <form class="editForm" method="POST">
     {% csrf_token %} {{ form.as_p }}
     <button type="submit" class="btn btn-primary">Save changes</button>
     <a class="btn btn-warning" href="{% url 'posts' %}">Cancel</a>
