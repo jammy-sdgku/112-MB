@@ -25,6 +25,7 @@ class PostListView(ListView): #inheritance
     #we can use queryset to filter the data.
     #queryset = Post.objects.filter(author='admin') #filtering the data to show only posts by author 'admin'
    
+   #What is the Django shortcut method to more easily render an html response? Render_to_response method
     
 class PostDetailView(DetailView):
     model = Post
