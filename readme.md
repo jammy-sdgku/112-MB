@@ -29,7 +29,7 @@ gitignore
 #to create App
 python3 manage.py startapp <name of app>
 
-#make sure you create urls.py file inside of the app folder (only if you're going to create vies on it)
+#make sure you create urls.py file inside of the app folder (only if you're going to create views on it)
 
 #install SQLAlchemy -----------------------------------------------------------------------------------
 pip install SQLAlchemy
