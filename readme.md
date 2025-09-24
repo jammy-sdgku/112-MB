@@ -42,7 +42,7 @@ After we finish modals in python file, we need to run these two commands:
 -makemigrations -> Translation from the models.py into sql part
 -migrate -> applies the migrations file into the db
 
-#Database info
+#Site info
 http://127.0.0.1:8000/
 
 #soft delete - made to deactivate account without deleting it.
@@ -60,4 +60,11 @@ STR:
 6. Create a base.html blueprint with a navbar and the jinja blocks
 7. Add the base to the home and about.html
 
-# 112-MB
+# Install Crispy Forms
+
+    Run in your terminal -> pip install crispy_bootstrap5
+
+# run pip3 freeze > requirements.txt - this will create a requirements .txt file that shows all the dependancies for your file.
+
+#to create a file to add info to database
+python3 manage.py makemigrations --empty posts
